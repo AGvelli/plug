@@ -13,13 +13,13 @@ Software for Fender Mustang Amps. This is a fork of offa/plug, based on piorekf'
 
 
 ## Requirements
-- ubuntu 21.10:
+Ubuntu 21.10:
 
 ```
 apt-get install unzip cmake libusb-1.0-0-dev build-essential pkg-config googletest qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools libgmock-dev
 
 ```
-- Raspberry pi OS:
+Raspberry pi OS:
 
 ```
 apt-get install cmake libusb-1.0-0-dev googletest qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools libgmock-dev 
