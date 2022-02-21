@@ -10,6 +10,17 @@ Extended presets from 8 to 24
 
 Added logic to select presets using buttons connected to gpio
 
+## Building
+
+Building and Testing is done through CMake:
+
+```
+mkdir build && cd build
+cmake ..
+make
+make unittest
+```
+
 ## Credits
 
 Thanks to *piorekf* and *offa*.
