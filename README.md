@@ -11,6 +11,7 @@ Extended presets from 8 to 24.
 
 Added logic to select presets using buttons connected to gpio.
 
+
 ## Requirements
 - ubuntu 21.10:
 
@@ -24,6 +25,16 @@ apt-get install unzip cmake libusb-1.0-0-dev build-essential pkg-config googlete
 apt-get install cmake libusb-1.0-0-dev googletest qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools libgmock-dev 
 
 ```
+
+Get wiringPi source code from GitHub:
+```
+wget https://github.com/milliways2/wPi/archive/refs/heads/master.zip 
+```
+Unzip the code and cd to the source folder; from source folder run:
+```
+./build
+```
+
 
 ## Building
 
