@@ -19,6 +19,7 @@ Ubuntu 21.10:
 apt-get install unzip cmake libusb-1.0-0-dev build-essential pkg-config googletest qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools libgmock-dev
 
 ```
+
 Raspberry pi OS:
 
 ```
