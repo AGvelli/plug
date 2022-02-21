@@ -1,0 +1,14 @@
+
+/*
+ * This is a generated file - Do not edit
+ */
+
+#include "Version.h"
+
+namespace plug
+{
+    std::string version()
+    {
+        return "@PROJECT_VERSION@";
+    }
+}

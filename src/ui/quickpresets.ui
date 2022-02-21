@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QuickPresets</class>
+ <widget class="QDialog" name="QuickPresets">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>475</width>
+    <height>874</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Quick Presets</string>
+  </property>
+  <property name="accessibleName">
+   <string>Quick presets window</string>
+  </property>
+  <property name="accessibleDescription">
+   <string>Allows you to set presets to be quickly loaded with a shortcut</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;0&quot; bank 1</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox">
+       <property name="accessibleName">
+        <string>Preset 0</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;1&quot; bank 1</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox_2</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_2">
+       <property name="accessibleName">
+        <string>Preset 1</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;2&quot; bank 1</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox_3</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_3">
+       <property name="accessibleName">
+        <string>Preset 2</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;3&quot; bank 1</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox_4</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_4">
+       <property name="accessibleName">
+        <string>Preset 3</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_6">
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;4&quot; bank 1</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox_5</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_5">
+       <property name="accessibleName">
+        <string>Preset 4</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_7">
+     <item>
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;5&quot; bank 1</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox_6</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_6">
+       <property name="accessibleName">
+        <string>Preset 5</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_8">
+     <item>
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;6&quot; bank 1</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox_7</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_7">
+       <property name="accessibleName">
+        <string>Preset 6</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_9">
+     <item>
+      <widget class="QLabel" name="label_9">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;7&quot; bank 1</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox_8</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_8">
+       <property name="accessibleName">
+        <string>Preset 7</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_10">
+     <item>
+      <widget class="QLabel" name="label_10">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;0&quot; bank 2</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox_9</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_9">
+       <property name="accessibleName">
+        <string>Preset 8</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_11">
+     <item>
+      <widget class="QLabel" name="label_11">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;1&quot; bank 2</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox_10</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_10">
+       <property name="accessibleName">
+        <string>Preset 9</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_12">
+     <item>
+      <widget class="QLabel" name="label_12">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;2&quot; bank 2</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox_11</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_11">
+       <property name="accessibleName">
+        <string>Preset 10</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_13">
+     <item>
+      <widget class="QLabel" name="label_13">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;3&quot; bank 2</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox_12</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_12">
+       <property name="accessibleName">
+        <string>Preset 11</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_14">
+     <item>
+      <widget class="QLabel" name="label_14">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;4&quot; bank 2</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox_13</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_13">
+       <property name="accessibleName">
+        <string>Preset 12</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_15">
+     <item>
+      <widget class="QLabel" name="label_15">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;5&quot; bank 2</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox_14</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_14">
+       <property name="accessibleName">
+        <string>Preset 13</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_16">
+     <item>
+      <widget class="QLabel" name="label_16">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;6&quot; bank 2</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox_15</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_15">
+       <property name="accessibleName">
+        <string>Preset 14</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_17">
+     <item>
+      <widget class="QLabel" name="label_17">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;7&quot; bank 2</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox_16</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_16">
+       <property name="accessibleName">
+        <string>Preset 15</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_18">
+     <item>
+      <widget class="QLabel" name="label_18">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;0&quot; bank 3</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox_17</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_17">
+       <property name="accessibleName">
+        <string>Preset 16</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_19">
+     <item>
+      <widget class="QLabel" name="label_19">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;1&quot; bank 3</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox_18</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_18">
+       <property name="accessibleName">
+        <string>Preset 17</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_20">
+     <item>
+      <widget class="QLabel" name="label_20">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;2&quot; bank 3</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox_19</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_19">
+       <property name="accessibleName">
+        <string>Preset 18</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_21">
+     <item>
+      <widget class="QLabel" name="label_21">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;3&quot; bank 3</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox_20</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_20">
+       <property name="accessibleName">
+        <string>Preset 19</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_22">
+     <item>
+      <widget class="QLabel" name="label_22">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;4&quot; bank 3</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox_21</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_21">
+       <property name="accessibleName">
+        <string>Preset 20</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_23">
+     <item>
+      <widget class="QLabel" name="label_23">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;5&quot; bank 3</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox_22</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_22">
+       <property name="accessibleName">
+        <string>Preset 21</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_24">
+     <item>
+      <widget class="QLabel" name="label_24">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;6&quot; bank 3</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox_23</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_23">
+       <property name="accessibleName">
+        <string>Preset 22</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_25">
+     <item>
+      <widget class="QLabel" name="label_25">
+       <property name="text">
+        <string>Default preset for key &quot;&amp;7&quot; bank 3</string>
+       </property>
+       <property name="buddy">
+        <cstring>comboBox_24</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_24">
+       <property name="accessibleName">
+        <string>Preset 23</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Select which slot to load with shortcut</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_111">
+     <item>
+      <spacer name="horizontalSpacer1">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="accessibleName">
+        <string>OK</string>
+       </property>
+       <property name="accessibleDescription">
+        <string>Save settings and close window</string>
+       </property>
+       <property name="text">
+        <string>&amp;OK</string>
+       </property>
+       <property name="shortcut">
+        <string>Return</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

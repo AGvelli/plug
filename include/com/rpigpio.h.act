@@ -1,0 +1,34 @@
+#ifndef RPIGPIO_H
+#define RPIGPIO_H
+
+#include <QObject>
+
+
+class RpiGPIO : public QObject
+{
+    Q_OBJECT
+
+public:
+    static RpiGPIO *instance();
+    static void destroy();
+
+    static void initialize(int buttonNumber);
+
+signals:
+    void edgeRaised();
+    void edgeFalled();
+
+private slots:
+    RpiGPIO();
+
+    static void raisingEdgeCallback();
+    static void fallingEdgeCallback();
+
+    void onRaisingEdge();
+    void onFallingEdge();
+
+private:
+    static RpiGPIO *_gpio;
+};
+
+#endif
