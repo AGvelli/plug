@@ -1,4 +1,4 @@
-# plug
+# Plug
 
 Plug software for Fender Mustang amplifier.
 
