@@ -4,6 +4,10 @@ Plug software for Fender Mustang amplifier.
 
 Software for Fender Mustang Amps. This is a fork of offa/plug, based on piorekf's Plug.
 
+Added support for read switches connected to GPIO pins.
+
+I built a footswitch prototype to select amp presets:
+https://www.youtube.com/watch?v=xH3y8V-K3XU
 
 ## What's new
 
