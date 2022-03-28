@@ -23,7 +23,8 @@ apt-get install cmake libusb-1.0-0-dev googletest qtbase5-dev qtchooser qt5-qmak
 
 ```
 
-Get the wiringPi source code from GitHub:
+wiringPi:
+get source code from GitHub:
 ```
 wget https://github.com/milliways2/wPi/archive/refs/heads/master.zip 
 ```
