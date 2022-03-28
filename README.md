@@ -1,8 +1,7 @@
 # Plug
 
-Plug software for Fender Mustang amplifier.
-
-Software for Fender Mustang Amps. This is a fork of offa/plug, based on piorekf's Plug.
+Software for Fender Mustang Amps. 
+This is a fork of offa/plug, based on piorekf's Plug.
 
 Added support for read switches connected to GPIO pins.
 
